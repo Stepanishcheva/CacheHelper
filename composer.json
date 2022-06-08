@@ -1,0 +1,24 @@
+{
+  "name": "anst/cache-saver",
+  "description": "Реализация PSR-16. Кэширование с использование базы дынных PostgreSQL",
+  "authors": [
+    {
+      "name": "AnastasiyaSt",
+      "email": "stepanishchevaaa@yandex.ru"
+    }
+  ],
+  "require": {
+    "php": ">=7.4",
+    "psr/simple-cache": "^1.0",
+    "ext-pdo": "*"
+  },
+  "autoload": {
+    "classmap": [
+      "AssertTrait.php",
+      "CacheArgumentException.php",
+      "CacheException.php",
+      "CacheProvider.php",
+      "CacheHelper.php"
+    ]
+  }
+}
